@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bot_menu_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item android:id="@+id/bot_menu_calculator"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="Calculator"/>
+    <item android:id="@+id/bot_menu_conversion"
+        android:icon="@drawable/baseline_scale_24"
+        android:title="BMI"/>
+    <item android:id="@+id/bot_menu_bmi"
+        android:icon="@drawable/money"
+        android:title="Money"/>
+    <item android:id="@+id/tentang"
+        android:icon="@drawable/baseline_info_24"
+        android:title="TENATANG KAMI"/>
+
+</menu>

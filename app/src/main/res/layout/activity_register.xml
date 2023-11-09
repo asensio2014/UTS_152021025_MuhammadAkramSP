@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#b36e25"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="MY APPS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/itn"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"
+        android:id="@+id/usern"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASWORD"
+        android:id="@+id/pass"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+
+
+    <Button
+        android:id="@+id/regis"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTITUT TEKNOLOGI BANDUNG"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:textSize="23dp"
+        android:textColor="#faf8f0"
+        android:textStyle="bold"/>
+
+</LinearLayout>

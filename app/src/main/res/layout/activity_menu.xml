@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b36e25"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/itn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="ANDA BERHASIL LOG IN"
+        android:textAlignment="center"
+        android:textColor="#c4beb7"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="20dp"
+            android:text="LOG OUT"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="menu"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/calculte"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:text="Fregment"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
