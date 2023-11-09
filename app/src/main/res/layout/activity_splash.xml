@@ -13,12 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="130dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/itn"/>
+        android:src="@drawable/elreal"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="MUHAMAD TAOPIK H"
+        android:text="MADRID APPS"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35dp"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="152021007"
+        android:text="152021025"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35dp"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/opik"/>
+        android:src="@drawable/ne"/>
 
 
 

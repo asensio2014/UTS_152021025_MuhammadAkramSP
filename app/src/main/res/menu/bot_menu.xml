@@ -14,6 +14,6 @@
         android:title="Money"/>
     <item android:id="@+id/tentang"
         android:icon="@drawable/baseline_info_24"
-        android:title="TENATANG KAMI"/>
+        android:title="about me"/>
 
 </menu>

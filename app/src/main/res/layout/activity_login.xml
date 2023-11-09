@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="#b36e25"
+    android:background="@color/blue"
     tools:context="com.example.tugas.LoginActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="MY APPS"
+        android:text="MADRID APPS"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40dp"
@@ -22,7 +22,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/itn"/>
+        android:src="@drawable/elreal"/>
 
 
     <EditText
@@ -69,7 +69,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INSTITUT TEKNOLOGI NASIONAL"
+        android:text="FOREVER WHITE"
         android:textAlignment="center"
         android:layout_marginTop="110dp"
         android:textSize="23dp"

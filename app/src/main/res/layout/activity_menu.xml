@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#b36e25"
+    android:background="@color/white"
     tools:context=".MenuActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/itn"/>
+        android:src="@drawable/elreal"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="ANDA BERHASIL LOG IN"
+        android:text="You are logged in successfully"
         android:textAlignment="center"
         android:textColor="#c4beb7"
         android:textSize="25dp"
@@ -43,14 +43,6 @@
             android:layout_weight="1"
             android:layout_marginTop="20dp"
             android:text="menu"
-            android:textStyle="bold" />
-        <Button
-            android:id="@+id/calculte"
-            android:layout_width="150dp"
-            android:layout_height="66dp"
-            android:layout_weight="1"
-            android:layout_marginTop="20dp"
-            android:text="Fregment"
             android:textStyle="bold" />
 
 

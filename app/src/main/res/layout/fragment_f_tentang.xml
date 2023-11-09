@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="MY APPS"
+        android:text="MADRID APPS"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35dp"
@@ -20,12 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="200dp"
-        android:src="@drawable/itn"/>
+        android:src="@drawable/elreal"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="450dp"
-        android:text="Jl. PH.H. Mustapa No. 23, Bandung"
+        android:text="SPAIN"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="658dp"
-        android:text="INSTITUT TEKNOLOGI NASIONAL"
+        android:text="HALA MADRID"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
